@@ -44,6 +44,11 @@ color: #757575;
 .text-center{
     text-align: center;
 }
+.container{
+width: 71%;
+    max-width: 1140px;
+    margin:0 auto;
+}
 header{
     background-color: #FFF8F3;
     background: url(../images/developer.png) ,url(../images/header_bg.png),#FFF8F3;
@@ -52,9 +57,7 @@ header{
     padding-top: 50px;
 }
 nav{
-    width: 71%;
-    max-width: 1140px;
-    margin:0px auto;
+    
     display: flex;
     justify-content: space-between;
 }
@@ -99,15 +102,14 @@ margin-bottom: 5px;
 #banner .banner-image img{
     max-width: 585px;
     vertical-align: middle;
+    background-color: none;
 }
 #about,#skills,#resume {
     padding-top: 130px;
 
 }
 #about .about-container{
-    width: 71%;
-    max-width: 1140px;
-    margin: 0 auto;
+    
     text-align: center;
     background-color: #FFF8F3;
     padding: 131px 156px;
